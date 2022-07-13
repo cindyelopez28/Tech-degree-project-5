@@ -16,7 +16,7 @@ fetch(urlAPI)
     }   
 
 })
-.catch(error => console.log("Sorry. Something went wrong.")); 
+.catch(error => console.log("Error running the page!")); 
 
 //create card function to create employee cards//
 function createCard(data, index) {
