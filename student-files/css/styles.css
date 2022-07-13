@@ -12,11 +12,18 @@ html, body {
     width: 100%;
     max-width: 100%;
 }
+/*added a background polka dot filter, used site https://dev.to/clairecodes/how-to-create-a-polka-dot-background-with-css-23m0 */
 
 body {
     font-family: "Nunito", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background-image: radial-gradient(#ffffff 20%, transparent 20%),
+     radial-gradient(#ffffff 10%, transparent 10%);
+  background-color: #d8f3fa;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+  height: 200px;
+  width: 100%;
 }
 
 header {
